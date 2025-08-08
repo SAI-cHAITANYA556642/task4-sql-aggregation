@@ -4,7 +4,7 @@
 I used aggregate functions such as SUM, COUNT, AVG, MAX, and GROUP BY/HAVING to summarize employee data.<br>
 
 ## Technologies Used
-- MySQL Workbench [or DB Browser for SQLite]<br>
+- MySQL Workbench or<br>
 
 ## Files
 - schema.sql: Contains the table structure and sample data.<br>
@@ -18,10 +18,10 @@ I used aggregate functions such as SUM, COUNT, AVG, MAX, and GROUP BY/HAVING to 
 - Departments with more than one employee<br>
 
 ## Tools Used
->>MySQL Workbench
-##Version Control System
-git
-##Key Concepts: Aggregation and Grouping
+MySQL Workbench<br>
+##Version Control System<br>
+git<br>
+##Key Concepts: Aggregation and Grouping<br>
 1)Aggregation means summarizing or combining several values into one result.<br>
 SQL offers built-in aggregate functions like:<br>
 SUM(): Adds values<br>
@@ -39,9 +39,9 @@ example:
 
  HAVING is used to filter grouped records after aggregation (unlike WHERE which filters before grouping).<br>
  example:<br>
- SELECT department, COUNT(*) <br>
-FROM employees <br>
-GROUP BY department <br>
+SELECT department, COUNT(*)<br>
+FROM employees<br>
+GROUP BY department<br>  
 HAVING COUNT(*) > 2;<br>
 
 
