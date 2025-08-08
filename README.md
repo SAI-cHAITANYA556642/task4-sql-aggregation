@@ -31,10 +31,14 @@ MAX(): Finds the highest value<br>
 MIN(): Finds the lowest value<br>
 example:<br>
 >> SELECT AVG(salary) FROM employees; <br>
+
 2)GROUP BY is used to arrange rows into groups that share the same value in one or more columns. <br>
-  It is often used with aggregate functions to get summaries for each category, such as per department.<br>
+
+ It is often used with aggregate functions to get summaries for each category, such as per department.<br>
 example:
->> SELECT department, COUNT(*) FROM employees GROUP BY department; <br>
+>> SELECT department, COUNT(*)<br>
+>> FROM employees<br>
+>>  GROUP BY department; <br>
 3)Filtering Groups (HAVING)<br>
 
  HAVING is used to filter grouped records after aggregation (unlike WHERE which filters before grouping).<br>
