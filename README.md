@@ -45,7 +45,7 @@ example:
  example:<br>
 SELECT department, COUNT(*)<br>
 FROM employees<br>
-GROUP BY department<br>  
+GROUP BY department
 HAVING COUNT(*) > 2;<br>
 
 
